@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WordProcessor": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\amar\\try\\input.txt C:\\amar\\try\\output.txt "
+    }
+  }
+}
