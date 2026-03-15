@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Shooter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas" width="480" height="640"></canvas>
+    <div id="overlay" class="hidden">
+      <div id="overlay-content">
+        <h1 id="overlay-title">Space Shooter</h1>
+        <p id="overlay-message">Destroy the invaders before they reach you!</p>
+        <p id="final-score"></p>
+        <button id="start-btn">Start Game</button>
+      </div>
+    </div>
+  </div>
+  <div id="instructions">
+    <strong>Controls:</strong> ← → Arrow Keys or A / D to move &nbsp;|&nbsp; Space to shoot
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
